@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="UTF-8">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="author" content="r254developers.co.ke">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	<title>
 		HigherWriters | Get the best writing services with our experts
 	</title>
