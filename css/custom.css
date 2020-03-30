@@ -1,0 +1,234 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Times;
+}
+.centre{
+	text-align: center;
+}
+body {
+	overflow-x: hidden;
+}
+nav{
+	box-shadow: 0 0 40px 0px rgba(0, 0, 0, .2)
+}
+
+.navbar-nav li{
+	margin: 0px 10px;
+	padding: 10px;
+}
+
+.navbar-nav{
+	text-transform: uppercase!important;
+	font-size: 16px!important;
+}
+.banner{
+	padding-top: 20vh;
+	background:url('../img/higherwriters2.png') center no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	min-height: 70vh;
+	color: #42455a;
+}
+.banner h1{
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 3px;
+	margin-bottom: 1em;
+}
+.banner p{
+	font-size: 24px;
+}
+.nav-btn {
+	padding: 5px 20px!important;
+	border-radius: 30px!important;
+	color: #fff!important;
+	background-color: teal!important;
+	font-size: 16px!important;
+}
+.banner-btn {
+	margin-top: 1em;
+	padding: 10px 30px!important;
+	border-top-right-radius: 1.5em!important;
+	border-top-left-radius: 0!important;
+	border-bottom-right-radius: 0!important;
+	border-bottom-left-radius: 1.5em!important;
+	color: #fff!important;
+	background-color: teal!important;
+	text-transform: uppercase;
+}
+.about{
+	margin-top: 3em;
+	margin-bottom: 3em;
+}
+.about h1{
+	text-align: center;
+}
+
+/*______________________Login_________________________*/
+.login-bg{
+	background-color:#F8F8F8;
+	margin-bottom: 0px;
+	padding: 4em;
+	text-align: center;
+}
+.login{
+	background-color: #fff;
+	box-shadow: 0 0 20px 7px rgba(0, 0, 0, .2);
+	padding: 2em 4em;
+}
+.form-control{
+	margin:2em 0;
+}
+.login p{
+	position: relative;
+
+}
+.login h6{
+	position: relative;
+	margin-bottom: 1em;
+
+}
+.login h6::before{
+	content: "";
+	display: block;
+	width: 30%;
+	height: 1px;
+	background-color: rgba(0, 0, 0, .5);
+	position: absolute;
+	left: 0;
+	top: 50%;
+}
+.login span{
+	background: #fff;
+}
+.login h6::after{
+	content: "";
+	display: block;
+	width: 30%;
+	height: 1px;
+	background-color: rgba(0, 0, 0, .5);
+	position: absolute;
+	right: 0;
+	top: 50%;
+}
+@media only screen and (max-width: 768px) {
+  .login h6::before{
+	content: "";
+	display: block;
+	width: 0%;
+	height: 1px;
+	background-color: rgba(0, 0, 0, .5);
+	position: absolute;
+	left: 0;
+	top: 50%;
+}
+.login h6::after{
+	content: "";
+	display: block;
+	width: 0%;
+	height: 1px;
+	background-color: rgba(0, 0, 0, .5);
+	position: absolute;
+	right: 0;
+	top: 50%;
+}
+}
+.login p::before{
+	content: "";
+	display: block;
+	width: 46%;
+	height: 1px;
+	background-color: rgba(0, 0, 0, .2);
+	position: absolute;
+	left: 0;
+	top: 50%;
+}
+.login p::after{
+	content: "";
+	display: block;
+	width: 46%;
+	height: 1px;
+	background-color: rgba(0, 0, 0, .2);
+	position: absolute;
+	right: 0;
+	top: 50%;
+}
+.login .btn{
+	width: 100%;
+	margin-bottom: 2em;
+	letter-spacing: 2px;
+	border-radius: 0px!important;	
+	box-shadow: 0 0 10px 4px rgba(0, 0, 0, .2);
+
+}
+
+
+
+
+.footer{
+	background-color: #636887;
+	/*background-color: #6b7093;*/
+	padding-top: 1em;
+	color: #fff;
+}
+.social{
+	border-radius: 0px;
+	border-top:1px solid rgba(255, 255, 255, .3);
+	border-bottom:1px solid rgba(255, 255, 255, .3);
+	/*box-shadow: 0 0 20px 7px rgba(0, 0, 0, .2);*/
+	margin-bottom: 1em;
+	padding-top: .5em;
+	padding-bottom: .2em;
+	padding-left: 2em;
+}
+.footer .social ul{
+	display: inline-flex;
+	margin-bottom: 0px;
+	float: right;
+}
+.footer .social ul li{
+	margin-right: 2em;
+}
+.footer .social ul li .fa{
+	border-radius: 50px;
+	box-shadow: 0 0 20px 7px rgba(0, 0, 0, .2);
+	background-color: #fff;
+	color: #636887;
+	padding: 6px;
+	font-size: 20px;
+}
+.footer .social ul li .fa-facebook{
+	padding: 6px 10px;
+}
+.footer h5{
+	margin-bottom: 1em;
+}
+.footer ul{
+	list-style: none;
+	padding-left: 1em;
+}
+.footer ul li{
+	margin-bottom:.5em;
+}
+.footer a {
+	text-decoration: none;
+	color: #fff;
+}
+.footer a:hover{
+	color: #fff;
+	opacity: 0.5;
+}
+.footer-1{
+	padding-bottom: 2.5em;
+}
+.pay img{
+	width: 80%;
+	margin-top: 1em;
+}
+.copyright{
+	background-color: #5b5f7c;
+	min-height: 5vh;
+	padding: 0.7em;
+}
