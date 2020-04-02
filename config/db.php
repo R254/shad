@@ -3,7 +3,7 @@
 	$server = "localhost";
 	$username = "rdevelo1_master";
 	$dbpass = "masterYii365";
-	$dbname = "rdevelo1_writers";
+	$dbname = "rdevelo1_R254";
 
 	$conn = new mysqli($server, $username, $dbpass, $dbname);
 
