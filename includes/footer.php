@@ -5,7 +5,7 @@
 			<div class="col-md-4">
 				<h5>Company</h5>
 				<p>
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, voluptatibus!
+					At higherwriters we offer the best content and article writing service at friendly prices.
 				</p>
 				<p>
 					<a href="">Privacy policy</a>
