@@ -16,7 +16,7 @@
 	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-<section id="header" class="home">
+<section id="header">
 		<nav class="navbar navbar-expand-lg navbar-light"> <a class="navbar-brand" href="index.php">HigherWriters</a> 
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <i class="fa fa-bars"></i> 
 			</button>
@@ -34,7 +34,7 @@
 					</li>
 					<li class="nav-item"> <a class="btn nav-btn" href="register.php">sign up</a>
 					</li>
-					<li class="nav-item"> <a class="btn nav-btn" href="login.php">login</a>
+					<li class="nav-item"> <a class="btn nav-btn" href="login.php">log in</a>
 					</li>
 				</ul>
 			</div>

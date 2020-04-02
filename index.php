@@ -1,18 +1,23 @@
 <?php
 	
-	// require_once('config/db.php');
+	require_once('config/db.php');
 	require_once("includes/header.php");
 
  ?>
+ <section class="home">
+ 	
+ </section>
 <section id="banner" class="banner">
 	<div class="container">
-		<h1>
-			Have a challenge with content/article writing?
-		</h1>
-		<p>
-			 At higherwriters we offer the best content and article writing service at friendly prices
-		</p>
-		<button class="btn banner-btn">Sign Up Now For Free</button>
+		<div class="welcome">
+			<h2>
+				Need content or article writer?
+			</h2>
+			<p>
+				 Get the best writer who is a good fit to handle your projects here at higherwriters. We are endowed with great talents and creative minds. We offer customized writing services that captures, engage, and retain your readers.
+			</p>
+			<a href="register.php" class="btn banner-btn">Sign Up Now For Free <i class="fa fa-angle-double-right"></i></a>
+		</div>
 	</div>	
 </section>
 <section id="about" class="about">

@@ -16,35 +16,53 @@ nav{
 
 .navbar-nav li{
 	margin: 0px 10px;
-	padding: 10px;
+	padding: 3px;
 }
 
 .navbar-nav{
-	text-transform: uppercase!important;
-	font-size: 16px!important;
+	text-transform: capitalize;
+	letter-spacing: 1px;
+	font-size: 18px!important;
 }
-.banner{
+.home {
 	padding-top: 20vh;
-	background:url('../img/higherwriters2.png') center no-repeat;
+	/*background:url('../img/higherwriters.png') center no-repeat;*/
+	background-size: cover;
+	background-attachment: fixed;
+	text-align: center;
+	min-height: 50vh;
+	background: linear-gradient(to bottom, rgba(0, 0, 0, .6), rgba(0, 0, 0, .3)), url(../img/higherwriters.png) center no-repeat;
+}
+/*.banner{
+	padding-top: 20vh;
+	background:url('../img/higherwriters3.jpg') center no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
 	min-height: 70vh;
 	color: #42455a;
-}
-.banner h1{
-	font-weight: bold;
-	letter-spacing: 3px;
-	margin-bottom: 1em;
-}
-.banner p{
-	font-size: 24px;
+}*/
+.welcome {
+	padding: 50px 100px;
+	background-color: #fff;
+	box-shadow: 0 0 20px 7px rgba(0, 0, 0, .2);
+	margin-top: -140px;
+	border-bottom-left-radius: 100px;
+	border-top-right-radius: 100px;
+	text-align: center;
+	color: #333;
+	font-size: 18px
 }
 .nav-btn {
 	padding: 5px 20px!important;
 	border-radius: 30px!important;
 	color: #fff!important;
-	background-color: teal!important;
+	background-color: #2fc7e2!important;
 	font-size: 16px!important;
+	text-transform: capitalize;
+}
+.banner h2{
+	text-transform: capitalize;
+	margin-bottom: 1em;
 }
 .banner-btn {
 	margin-top: 1em;
@@ -54,15 +72,18 @@ nav{
 	border-bottom-right-radius: 0!important;
 	border-bottom-left-radius: 1.5em!important;
 	color: #fff!important;
-	background-color: teal!important;
-	text-transform: uppercase;
+	background-color: #2fc7e2!important;
+}
+.banner-btn:hover{
+	background-color: #19d7f8!important;
 }
 .about{
-	margin-top: 3em;
+	margin-top: 5em;
 	margin-bottom: 3em;
 }
 .about h1{
 	text-align: center;
+	margin-bottom: 1em;
 }
 
 /*______________________Login_________________________*/
