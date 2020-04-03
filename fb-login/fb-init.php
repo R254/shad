@@ -13,7 +13,7 @@ $fb = new Facebook\Facebook([
 ]);
 
 $helper = $fb->getRedirectLoginHelper();
-$login_url = $helper->getLoginUrl('https://writers.r254developers.co.ke/fb-login/fb-init.php');
+$login_url = $helper->getLoginUrl('https://writers.r254developers.co.ke/fb-login');
 
 try {
 
