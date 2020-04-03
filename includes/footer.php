@@ -38,7 +38,6 @@
 				<li><a href=""><i class="fa fa-facebook"></i></a></li>
 				<li><a href=""><i class="fa fa-twitter"></i></a></li>
 				<li><a href=""><i class="fa fa-linkedin"></i></a></li>
-				<li><a href=""><i class="fa fa-youtube"></i></a></li>
 			</ul>
 			<p style="text-align:left;">Follow us</p>
 		</div>

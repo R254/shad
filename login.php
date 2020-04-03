@@ -1,5 +1,6 @@
 <?php
 	include 'includes/header.php';
+	require 'fb-login/fb-init.php';
 
  ?>
 
@@ -16,12 +17,12 @@
  					<div class="form-group">
  						<input class="form-control" type="email" name="email" placeholder="Enter email address">
  						<input class="form-control" type="password" name="password" placeholder="Your password">
- 						<button class="btn btn-secondary">Login</button>
+ 						<a class="btn btn-secondary">Login</a>
  					</div>
  					<p>or</p>
  					<div class="form-group">
- 						<button class="btn btn-primary"><i class="fa fa-google"></i>  Sign in with google</button>
- 						<button class="btn btn-success"><i class="fa fa-facebook"></i> Sign in with facebook</button>
+ 						<a class="btn btn-primary"><i class="fa fa-google"></i>  Sign in with google</a>
+ 						<a href="<?php echo $login_url; ?>" class="btn btn-success"><i class="fa fa-facebook"></i> Sign in with facebook</a>
  					</div>
  					<h6><span>Don't have an account?</span> </h6>
  					<a href="register.php" class="btn btn-secondary">Sign Up</a>
