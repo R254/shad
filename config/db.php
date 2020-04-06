@@ -1,14 +1,11 @@
-<?php 
+ <?php
 
-	$server = "localhost";
-	$username = "rdevelo1_master";
-	$dbpass = "masterYii365";
-	$dbname = "rdevelo1_R254";
+	$db_user = "rdevelo1_master";
+	$db_pass = "masterYii365";
+	$db_name = "rdevelo1_R254";
 
-	$conn = new mysqli($server, $username, $dbpass, $dbname);
+	$conn = new PDO('mysql:host=localhost;dbname='. $db_name. ';charset=utf8', $db_user, $db_pass);
 
-		// Check connection
-	if ($conn->connect_error) {
-		die("connection failed: ".$conn->connect_error);
-	}
- ?>
+	$conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+
+?>

@@ -154,6 +154,12 @@ nav{
 	right: 0;
 	top: 50%;
 }
+.footer hr{
+	display: block!important;
+}
+}
+.footer hr{
+	display: none;
 }
 .login p::before{
 	content: "";
@@ -183,6 +189,18 @@ nav{
 	box-shadow: 0 0 10px 4px rgba(0, 0, 0, .2);
 
 }
+.redirect{
+	min-height: 30vh;
+	margin:4em auto;
+}
+.redirect h3{
+	margin-bottom: 1em;
+}
+.redirect a{
+	margin-left: 10px;
+}
+
+/*Below are the registration form validation styling*/
 
 
 

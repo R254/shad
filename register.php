@@ -1,6 +1,5 @@
 <?php
 	include 'includes/header.php';
-
  ?>
 
 <section class="login-bg">
@@ -10,13 +9,15 @@
 				
 			</div>
 			<div class="col-md-6">
-				<form class="login">
+				<form class="login" method="post" action="register.php">
 					<h5>Please Sign Up</h5>
 					<div class="form-group">
-						<input class="form-control" type="email" name="email" placeholder="Enter email address">
-						<input class="form-control" type="password" name="password" placeholder="Your password">
-						<input class="form-control" type="password" name="confirm_password" placeholder="Confirm password">
-						<button class="btn btn-secondary">sign Up</button>
+						<input class="form-control" type="text" name="f_name" placeholder="Your First Name" required>
+						<input class="form-control" type="text" name="l_name" placeholder="Your Last Name" required>
+						<input class="form-control" type="email" name="email" placeholder="Your email address" required>
+						<input class="form-control" type="password" name="pass" placeholder="Your password" required>
+						<input class="form-control" type="password" name="confirm_password" placeholder="Confirm password" required>
+						<button class="btn btn-secondary" name="submit" id="register">Sign Up</button>
 					</div>
 					<p>or</p>
 					<div class="form-group">

@@ -4,6 +4,7 @@
 		<div class="row footer-1">
 			<div class="col-md-4">
 				<h5>Company</h5>
+				<hr>
 				<p>
 					At higherwriters we offer the best content and article writing service at friendly prices.
 				</p>
@@ -19,7 +20,9 @@
 				
 			</div>
 			<div class="col-md-4">
+				<hr>
 				<h5>Quick Links</h5>
+				<hr>
 				<ul>
 					<li><a href="">About Us</a></li>
 					<li><a href="">Our Services</a></li>
@@ -29,7 +32,9 @@
 				</ul>
 			</div>
 			<div class="col-md-4 pay">
+				<hr>
 				<h5 class="">Payment methods</h5>
+				<hr>
 				<img src="img/pay.png">
 			</div>
 		</div>
@@ -51,6 +56,8 @@
 
 
 <script type="text/javascript" src="js/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+<script type="text/javascript" src="js/custom.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
 </body>
 </html>
