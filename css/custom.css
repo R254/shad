@@ -134,29 +134,33 @@ nav{
 	top: 50%;
 }
 @media only screen and (max-width: 768px) {
-  .login h6::before{
-	content: "";
-	display: block;
+  .login h6::before, .login h6::after, .login p::before, .login::after{
 	width: 0%;
-	height: 1px;
-	background-color: rgba(0, 0, 0, .5);
-	position: absolute;
-	left: 0;
-	top: 50%;
-}
-.login h6::after{
-	content: "";
-	display: block;
-	width: 0%;
-	height: 1px;
-	background-color: rgba(0, 0, 0, .5);
-	position: absolute;
-	right: 0;
-	top: 50%;
 }
 .footer hr{
 	display: block!important;
 }
+/*.login .btn{
+	width: 100%;
+	letter-spacing: 1px;
+	border-radius: 0px!important;	
+	box-shadow: 0 0 10px 4px rgba(0, 0, 0, .2);
+
+}*/
+.login-bg{
+	margin-bottom: 0px;
+	padding: 1em;
+	text-align: center;
+}
+.login{
+	background-color: #fff;
+	box-shadow: 0 0 20px 7px rgba(0, 0, 0, .2);
+	padding: 1em;
+}
+.form-control{
+	margin: 0.5em 0;
+}
+
 }
 .footer hr{
 	display: none;
