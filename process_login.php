@@ -22,21 +22,47 @@
 			</button>
 			<div class="collapse navbar-collapse" id="navbarNav">
 				<ul class="navbar-nav ml-auto">
-					<li class="nav-item"> <a class="nav-link" href="index.php">Home</a>
+				
+					<li class="nav-item"> <a class="" href="process_register.php">sign up</a>
 					</li>
-					<li class="nav-item"> <a class="nav-link" href="#about">about us</a>
-					</li>
-					<li class="nav-item"> <a class="nav-link" href="#services">Our services</a>
-					</li>					
-					<li class="nav-item"> <a class="nav-link" href="#pricing">Pricing</a>
-					</li>
-					<li class="nav-item"> <a class="nav-link" href="#footer">Contact</a>
-					</li>
-					<li class="nav-item"> <a class="btn nav-btn" href="process_register.php">sign up</a>
-					</li>
-					<li class="nav-item"> <a class="btn nav-btn" href="process_login.php">log in</a>
 					</li>
 				</ul>
 			</div>
 		</nav>
 	</section>
+
+
+ <section class="login-bg">
+ 	<div class="container">
+ 		<div class="row">
+ 			<div class="col-md-3">
+ 				
+ 			</div>
+ 			<div class="col-md-6">
+ 				<form class="login">
+ 					<h5>Please Log In </h5>
+ 					<div class="form-group">
+ 						<a class="btn btn-primary"><i class="fa fa-google"></i>  Sign in with google</a>
+ 						<a href="<?php echo $login_url; ?>" class="btn btn-success"><i class="fa fa-facebook"></i> Sign in with facebook</a>
+ 					</div>
+ 					
+ 					<div class="form-group">
+ 						<a href="login.php" class="btn btn-secondary">Login With Email</a>
+ 					</div>
+ 					
+ 					
+ 					<h6><span>Don't have an account?</span> </h6>
+ 					<a href="process_register.php" class="btn btn-secondary">Sign Up</a>
+ 				</form>
+ 			</div>
+ 			<div class="col-md-3">
+ 				
+ 			</div>
+ 		</div>
+ 	</div>
+ </section>
+
+ <?php
+	include 'includes/footer.php';
+
+ ?>

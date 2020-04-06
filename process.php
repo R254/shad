@@ -9,16 +9,23 @@
 		$email = $_POST['email'];
 		$pass = sha1($_POST['pass']);
 
+		$stmt = $conn->prepare("SELECT * FROM users WHERE email=?");
+		$stmt->execute([$email]); 
+		$user = $stmt->fetch();
+		if ($user) {
+			echo "Email already exists in the database! Please use another email!";
+		} else {
 
-		$sql= "INSERT INTO users(f_name,l_name,email,pass) VALUES(?,?,?,?)";
+		    $sql= "INSERT INTO users(f_name,l_name,email,pass) VALUES(?,?,?,?)";
 
-		$stmt = $conn->prepare($sql);
+			$stmt = $conn->prepare($sql);
 
-		$results = $stmt->execute([$f_name,$l_name,$email,$pass]);
-		if ($results) {
-			echo "Your registration has been submitted successfully.";
-		}else{
-			echo "There were errors while saving the data.";
+			$results = $stmt->execute([$f_name,$l_name,$email,$pass]);
+			if ($results) {
+				echo "Your registration has been submitted successfully.";
+			}else{
+				echo "There were errors while saving the data.";
+			}
 		}
 
 	}
