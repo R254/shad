@@ -137,6 +137,9 @@ nav{
   .login h6::before, .login h6::after, .login p::before, .login::after{
 	width: 0%;
 }
+.login p{
+	display: none;
+}
 .footer hr{
 	display: block!important;
 }
@@ -149,16 +152,16 @@ nav{
 }*/
 .login-bg{
 	margin-bottom: 0px;
-	padding: 1em;
+	padding: 2em;
 	text-align: center;
 }
 .login{
 	background-color: #fff;
-	box-shadow: 0 0 20px 7px rgba(0, 0, 0, .2);
+	box-shadow: 0 0 10px 4px rgba(0, 0, 0, .2);
 	padding: 1em;
 }
 .form-control{
-	margin: 0.5em 0;
+	margin: 1em 0;
 }
 
 }
