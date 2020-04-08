@@ -10,17 +10,19 @@
 				var l_name 	= $('#l_name').val();
 				var email 	= $('#email').val();
 				var pass 	= $('#pass').val();
+				var user = $("input[name='user']:checked").val();
+				// var user 	= $('input[name="user"]:selected').val();
 
 				e.preventDefault();
 
 				$.ajax({
 					type: 'POST',
 					url: 'process.php',
-					data: {f_name:f_name,l_name:l_name,email:email,pass:pass},
+					data: {f_name:f_name,l_name:l_name,email:email,pass:pass, user:user},
 					success:function(data){
 						Swal.fire({
-						  icon: 'success',
-						  title: 'Successful',
+						  icon: 'succes',
+						  title: 'Check the below message',
 						  text: data,
 						  footer: '<a href="login.php">Please Sign In</a>'
 						})
