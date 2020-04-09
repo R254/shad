@@ -9,7 +9,7 @@
 				
 			</div>
 			<div class="col-md-6">
-				<form class="login" method="post" action="register.php">
+				<form id="reg-form" class="login" method="post" action="register.php">
 					<h5>Please Sign Up</h5>
 					<div class="form-group">
 						<input id="f_name" class="form-control" type="text" name="f_name" placeholder="Your First Name" required>

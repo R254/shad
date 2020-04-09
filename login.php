@@ -1,6 +1,6 @@
 <?php
 	include 'includes/header.php';
-	require 'fb-login/fb-init.php';
+	include 'config/login_process.php';
 
  ?>
 
@@ -12,12 +12,13 @@
  				
  			</div>
  			<div class="col-md-6">
- 				<form class="login">
- 					<h5>Please Log In </h5> 					
+ 				<form class="login" method="post" action="config/login_process.php">
+ 					<h5>Please Log In </h5> 
+ 					<?php echo $message; ?>			
  					<div class="form-group">
  						<input class="form-control" type="email" name="email" placeholder="Enter email address">
- 						<input class="form-control" type="password" name="password" placeholder="Your password">
- 						<a style="color:#fff;" class="btn btn-secondary">Log In</a>
+ 						<input class="form-control" type="password" name="pass" placeholder="Your password">
+ 						<button style="color:#fff;" class="btn btn-secondary" name="login">Log In</button>
  						<a href="">Forgot Password?</a>
  					</div>
  					
