@@ -22,7 +22,7 @@
 			</button>
 			<div class="collapse navbar-collapse" id="navbarNav">
 				<ul class="navbar-nav ml-auto">					
-					<li class="nav-item"> <a class="btn nav-btn" href="logout.php">log Out</a>
+					<li class="nav-item"> <a name="logout" class="btn nav-btn" href="logout.php">log Out</a>
 					</li>
 				</ul>
 			</div>

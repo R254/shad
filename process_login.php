@@ -22,7 +22,7 @@
 			</button>
 			<div class="collapse navbar-collapse" id="navbarNav">
 				<ul class="navbar-nav ml-auto">
-				
+					<li>Already have an account? </li>
 					<li class="nav-item"> <a class="" href="process_register.php">sign up</a>
 					</li>
 					</li>
@@ -50,9 +50,6 @@
  						<a href="login.php" class="btn btn-secondary">Login With Email</a>
  					</div>
  					
- 					
- 					<h6><span>Don't have an account?</span> </h6>
- 					<a href="process_register.php" class="btn btn-secondary">Sign Up</a>
  				</form>
  			</div>
  			<div class="col-md-3">
