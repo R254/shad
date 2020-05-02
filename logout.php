@@ -5,7 +5,7 @@
 	if ($_SESSION['user']) {
 		session_unset('user');
 		session_destroy();
-		header('Location: index.php');
+		header('Location: login.php');
 	}die();
 	
 	
