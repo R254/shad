@@ -49,7 +49,7 @@
 	</div>
 	<div class="copyright">
 			<div class="container"><!--  All Rights Reserved. -->
-				HigherWriters &copy;<script type="text/javascript">document.write(new Date().getFullYear());</script> All Rights Reserved
+				HigherWriters &copy; <script type="text/javascript">document.write(new Date().getFullYear());</script> All Rights Reserved
 			</div>
 		</div>
 </section>
