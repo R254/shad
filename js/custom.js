@@ -10,7 +10,7 @@
 				var l_name 	= $('#l_name').val();
 				var email 	= $('#email').val();
 				var pass 	= $('#pass').val();
-				var user = $("[name=user]:checked").val();
+				var user = $("input[name='user']:checked").val();
 				// var user = $('input[type="radio"]:checked').val();
 				// var user = $("input[name='user']:checked").val();
 				// var user 	= $('input[name="user"]:selected').val();
@@ -23,7 +23,7 @@
 					data: $('#reg-form').serialize(),
 					success:function(data){
 						Swal.fire({
-						  icon: 'succes',
+						  icon: 'success',
 						  title: '',
 						  text: data,
 						  footer: '<a href="login.php">Please Sign In</a>'

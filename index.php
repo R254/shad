@@ -21,7 +21,7 @@
 			<p>
 				 Get the best writer who is a good fit to handle your projects here at higherwriters. We are endowed with great talents and creative minds. We offer customized writing services that captures, engage, and retain your readers.
 			</p>
-			<a href="register.php" class="btn banner-btn">Sign Up Now For Free <i class="fa fa-angle-double-right"></i></a>
+			<a href="process_register.php" class="btn banner-btn">Sign Up Now For Free <i class="fa fa-angle-double-right"></i></a>
 		</div>
 	</div>	
 </section>
