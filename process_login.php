@@ -1,3 +1,6 @@
+ <?php 
+	header('Location: login.php')
+ ?>
 <!-- <!DOCTYPE html>
 <html>
 <head>
@@ -65,6 +68,3 @@
 
  ?> -->
 
- <?php 
-	header('Location: login.php')
- ?>
