@@ -33,7 +33,6 @@
 					$_SESSION['role'] = $row['role'];
 					header('Location: ../dashboard.php');
 				}
-				die(header('Location: ../index.php'));
 			}
 		}
 		else{
