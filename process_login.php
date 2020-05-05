@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html>
 <head>
 	<meta charset="UTF-8">
@@ -17,18 +17,19 @@
 </head>
 <body>
 <section id="header">
+	<div class="container">
 		<nav class="navbar navbar-expand-lg navbar-light"> <a class="navbar-brand" href="index.php">HigherWriters</a> 
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <i class="fa fa-bars"></i> 
 			</button>
 			<div class="collapse navbar-collapse" id="navbarNav">
 				<ul class="navbar-nav ml-auto">
-					<li>Already have an account? </li>
+					<li>Not yet registered? </li>
 					<li class="nav-item"> <a class="" href="process_register.php">sign up</a>
-					</li>
 					</li>
 				</ul>
 			</div>
 		</nav>
+	</div>
 	</section>
 
 
@@ -42,7 +43,7 @@
  				<form class="login">
  					<h5>Please Log In </h5>
  					<div class="form-group">
- 						<a class="btn btn-primary"><i class="fa fa-google"></i>  Sign in with google</a>
+ 						<a href="" class="btn btn-primary"><i class="fa fa-google"></i>  Sign in with google</a>
  						<a href="<?php echo $login_url; ?>" class="btn btn-success"><i class="fa fa-facebook"></i> Sign in with facebook</a>
  					</div>
  					
@@ -60,6 +61,10 @@
  </section>
 
  <?php
-	include 'includes/footer.php';
+	// include 'includes/footer.php';
 
+ ?> -->
+
+ <?php 
+	header('Location: login.php')
  ?>

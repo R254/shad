@@ -17,6 +17,7 @@
 </head>
 <body>
 <section id="header">
+	<div class="container">
 		<nav class="navbar navbar-expand-lg navbar-light"> <a class="navbar-brand" href="index.php">HigherWriters</a> 
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <i class="fa fa-bars"></i> 
 			</button>
@@ -39,4 +40,5 @@
 				</ul>
 			</div>
 		</nav>
+	</div>
 	</section>

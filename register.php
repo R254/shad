@@ -1,5 +1,11 @@
 <?php
+	session_start();
 	include 'includes/header.php';
+	if (isset($_SESSION['role'])) 
+	{
+		header('Location: client.php');
+	}
+
  ?>
 
 <section class="login-bg">
@@ -19,10 +25,10 @@
 
 						<h4>I want to :</h4>
 						<div class="radio-toolbar">
-							<input class="user" type="radio" name="user" id="writer" value="writer">
+							<input class="user" type="radio" name="role" id="writer" value="writer">
 							<label class="radio-label" for="writer">Work as Freelancer</label>
 
-							<input class="user" type="radio" name="user" id="client" value="client">
+							<input class="user" type="radio" name="role" id="client" value="client">
 							<label class="radio-label" for="client">Hire a Writer</label>
 						</div>
 						<button class="btn btn-secondary" name="submit" id="register">Sign Up</button>

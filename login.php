@@ -1,6 +1,11 @@
 <?php
 	include 'includes/header.php';
 	include 'config/login_process.php';
+	if (isset($_SESSION['user'])) 
+	{
+		header('Location: client.php');
+	}
+
 
  ?>
 

@@ -3,11 +3,18 @@
 	session_start();
 	require_once("includes/users-header.php");
 
-	if (isset($_SESSION['user'])) 
+	if (isset($_SESSION['role'])) 
 	{
-		if ($_SESSION['user'] != 'writer')
+		if ($_SESSION['role'] != 'writer')
 		 {
-			header('Location: client.php');
+			if ($_SESSION['role'] != 'client') 
+			{
+				header('Location: dashboard.php');
+			}
+			else{
+				header('Location: client.php');
+			}
+
 		}
 	}
 	else
@@ -42,6 +49,12 @@
 					</div>
 					<?php while ($row = $q->fetch(PDO::FETCH_OBJ)): ?>
 					<div class="card-body">
+						<div class="btn-w">
+							<ul>
+								<li><a href="register.php"><button class="btn nav-btn">Save</button></a></li>
+								<li><a href="login.php"><button class="btn btn-c">Invite to job</button></a></li>
+							</ul>
+						</div>
 							<h4><a href=""><?php echo $row->title; ?></a></h4> <span><?php echo $row->date_posted; ?></span>
 							<p>
 								<?php echo $row->body; ?>

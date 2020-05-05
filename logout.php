@@ -5,8 +5,10 @@
 	if ($_SESSION['user']) {
 		session_unset('user');
 		session_destroy();
-		header('Location: index.php');
-	}die();
+		header('Location: login.php');
+	}else{
+		header('Location: login.php');
+	}
 	
 	
  ?>

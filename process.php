@@ -8,12 +8,12 @@
 		$l_name = $_POST['l_name'];
 		$email = $_POST['email'];
 		$pass = sha1($_POST['pass']);
-		$user = $_POST['user'];
+		$role = $_POST['role'];
 
 		$stmt = $conn->prepare("SELECT * FROM users WHERE email=?");
 		$stmt->execute([$email]);
-		$user = $stmt->fetch();
-		if ($user) {
+		$result = $stmt->fetch();
+		if ($result) {
 			echo "Email already exists in the database! Please use another email!";
 		} else {
 
