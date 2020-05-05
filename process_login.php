@@ -1,7 +1,5 @@
- <?php 
-	header('Location: login.php');
- ?>
-<!-- <!DOCTYPE html>
+
+<!DOCTYPE html>
 <html>
 <head>
 	<meta charset="UTF-8">
@@ -64,7 +62,7 @@
  </section>
 
  <?php
-	// include 'includes/footer.php';
+	include 'includes/footer.php';
 
- ?> -->
+ ?>
 
