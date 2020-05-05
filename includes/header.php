@@ -33,9 +33,9 @@
 					</li>
 					<li class="nav-item"> <a class="nav-link" href="#footer">Contact</a>
 					</li>
-					<li class="nav-item"> <a class="btn nav-btn" href="process_register.php">sign up</a>
+					<li class="nav-item"> <a class="btn nav-btn" href="register.php">sign up</a>
 					</li>
-					<li class="nav-item"> <a class="btn nav-btn" href="process_login.php">log in</a>
+					<li class="nav-item"> <a class="btn nav-btn" href="login.php">log in</a>
 					</li>
 				</ul>
 			</div>
