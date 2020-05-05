@@ -38,13 +38,14 @@
 					$_SESSION['AdminUser'] = $row['f_name'];
 					$_SESSION['role'] = $row['role'];
 					header('Location: ../dashboard.php');
+				}else
+				{
+					header('Location: ../index.php');
 				}
-				die(header('Location: ../index.php'));
 			}
 		}
 		else{
 		header('Location: ../login.php');
-		$message = "Wrong username or password";
 	}
 
 	}

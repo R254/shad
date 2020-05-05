@@ -2,8 +2,8 @@
 	
 	session_start();
 
-	if ($_SESSION['user']) {
-		session_unset('user');
+	if ($_SESSION['role']) {
+		session_unset('role');
 		session_destroy();
 		header('Location: login.php');
 	}else{
