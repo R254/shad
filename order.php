@@ -2,9 +2,9 @@
 
 	session_start();
 	
-	if (isset($_SESSION['user'])) 
+	if (isset($_SESSION['role'])) 
 	{
-		if ($_SESSION['user'] != 'client')
+		if ($_SESSION['role'] != 'client')
 		 {
 			header('Location: writer.php');
 		}
@@ -15,7 +15,7 @@
 	}
 
 	require_once('./config/db.php');
-	$sql = "SELECT * FROM users WHERE user = 'writer';";
+	$sql = "SELECT * FROM users WHERE role = 'writer';";
 	$q = $conn->query($sql);
 ?>
 <!DOCTYPE html>
@@ -27,7 +27,7 @@
 	<meta name="author" content="r254developers.co.ke">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	<title>
-		HigherWriters | Get the best writing services with our experts
+		Orders | Get the best writing services with our experts
 	</title>
 	<link rel="icon" type="image/ico" href="img/favicon.ico">
 	<link rel="stylesheet" type="text/css" href="css/custom.css">

@@ -33,7 +33,7 @@
 	<meta name="author" content="r254developers.co.ke">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	<title>
-		HigherWriters | Get the best writing services with our experts
+		Client | Get the best writing services with our experts
 	</title>
 	<link rel="icon" type="image/ico" href="img/favicon.ico">
 	<link rel="stylesheet" type="text/css" href="css/custom.css">
