@@ -17,14 +17,19 @@
 </head>
 <body>
 <section id="header">
-		<nav class="navbar navbar-expand-lg navbar-light"> <a class="navbar-brand" href="index.php">HigherWriters</a> 
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <i class="fa fa-bars"></i> 
-			</button>
+<div class="container">
+	<nav class="navbar navbar-expand-lg navbar-light"> <a class="navbar-brand" href="index.php">HigherWriters</a> 
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <i class="fa fa-bars"></i> 
+		</button>
+		<div class="container">
 			<div class="collapse navbar-collapse" id="navbarNav">
-				<ul class="navbar-nav ml-auto">					
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item"> <button class="btn nav-btn-profile" data-trigger="focus" data-toggle="popover" title='<i class="fa fa-user"></i> title' data-placement="bottom" data-content='<a name="logout" class="btn nav-btn" href="logout.php">log Out</a>'><i class="fa fa-user"></i></button></li>				
 					<li class="nav-item"> <a name="logout" class="btn nav-btn" href="logout.php">log Out</a>
 					</li>
 				</ul>
 			</div>
-		</nav>
-	</section>
+		</div>
+	</nav>
+</div>
+</section>
