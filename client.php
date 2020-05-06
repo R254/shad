@@ -131,7 +131,7 @@
 	        </button>
     	</div>
     	<div class="modal-body">
-    	<table style="margin: 0px;" class="table">
+    	<table style="margin: 0px;" class="table table-striped">
 		  <thead>
 		    <tr>
 		      <th scope="col">No. of words</th>
