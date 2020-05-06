@@ -15,7 +15,7 @@
 				
 			</div>
 			<div class="col-md-6">
-				<form id="reg-form" class="login" method="post" action="register.php">
+				<form id="reg-form" class="login" method="post" action="">
 					<h5>Please Sign Up</h5>
 					<div class="form-group">
 						<input id="f_name" class="form-control" type="text" name="f_name" placeholder="Your First Name" required>
@@ -24,10 +24,10 @@
 						<input id="pass" class="form-control" type="password" name="pass" placeholder="Your password" required>
 
 						<h4>I want to :</h4>
-						<div class="radio-toolbar">
+						<div class="radio-toolbar clearfix">
 							<input class="user" type="radio" name="role" id="writer" value="writer">
 							<label class="radio-label" for="writer">Work as Freelancer</label>
-
+							
 							<input class="user" type="radio" name="role" id="client" value="client">
 							<label class="radio-label" for="client">Hire a Writer</label>
 						</div>
