@@ -33,10 +33,13 @@
 					$_SESSION['role'] = $row['role'];
 					header('Location: ../dashboard.php');
 				}
+				else{
+					header('Location: ../index.php');
+				}
 			}
 		}
 		else{
-		$message = "Wrong username or password";
+		header('Location: ../login.php');
 	}
 
 	}
