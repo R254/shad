@@ -1,8 +1,6 @@
 <?php
 	
 	session_start();
-	require_once("includes/users-header.php");
-
 	if (isset($_SESSION['role'])) 
 	{
 		if ($_SESSION['role'] != 'writer')
@@ -25,6 +23,8 @@
 	require_once('./config/db.php');
 	$sql = "SELECT * FROM projects;";
 	$q = $conn->query($sql);
+
+	require_once("includes/users-header.php");
 
 ?>
 

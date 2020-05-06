@@ -1,12 +1,11 @@
 <?php
-	include 'includes/header.php';
 	include 'config/login_process.php';
 	if (isset($_SESSION['role'])) 
 	{
 		header('Location: client.php');
 	}
 
-
+	include 'includes/header.php';
  ?>
 
 

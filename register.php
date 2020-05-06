@@ -1,10 +1,10 @@
 <?php
 	session_start();
-	include 'includes/header.php';
 	if (isset($_SESSION['role'])) 
 	{
 		header('Location: client.php');
 	}
+	include 'includes/header.php';
 
  ?>
 

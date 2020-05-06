@@ -1,17 +1,15 @@
 <?php
 	session_start();
 	require_once('config/db.php');
-	require_once("includes/header.php");
 
 	if (isset($_SESSION['role'])) 
 	{
 		header('Location: client.php');
 	}
 
+
+	require_once("includes/header.php");
  ?>
- <section class="home">
- 	
- </section>
 <section id="banner" class="banner">
 	<div class="container">
 		<div class="welcome">
