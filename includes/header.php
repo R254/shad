@@ -17,7 +17,7 @@
 </head>
 <body>
 <section id="header">
-	<div class="container">
+	<div class="container ">
 		<nav class="navbar navbar-expand-lg navbar-light"> <a class="navbar-brand" href="index.php">HigherWriters</a> 
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <i class="fa fa-bars"></i> 
 			</button>
@@ -29,7 +29,7 @@
 					</li>
 					<li class="nav-item"> <a class="nav-link" href="#services">Our services</a>
 					</li>					
-					<li class="nav-item"> <a class="nav-link" href="#pricing">Pricing</a>
+					<li class="nav-item"> <a class="nav-link" href="#" data-toggle="modal" data-target=".pricing-modal">Pricing</a>
 					</li>
 					<li class="nav-item"> <a class="nav-link" href="#footer">Contact</a>
 					</li>

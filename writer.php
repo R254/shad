@@ -43,14 +43,16 @@
 	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-<section id="header">
-<div class="container">
+
+<div class="container-fluid nav-fluid">
 	<nav class="navbar navbar-expand-lg navbar-light"> <a class="navbar-brand" href="index.php">HigherWriters</a> 
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <i class="fa fa-bars"></i> 
 		</button>
 		<div class="container">
 			<div class="collapse navbar-collapse" id="navbarNav">
 				<ul class="navbar-nav ml-auto">
+					<li class="nav-item"> <a class="nav-link" href="#" data-toggle="modal" data-target=".pricing-modal">Pricing</a>
+					</li>
 					<li class="nav-item"> <button class="btn nav-btn-profile" data-trigger="focus" data-toggle="popover" title='<i class="fa fa-user"></i> title' data-placement="bottom" data-content='<a name="logout" class="btn nav-btn" href="logout.php">log Out</a>'><i class="fa fa-user"></i></button></li>				
 					<li class="nav-item"> <a name="logout" class="btn nav-btn" href="logout.php">log Out</a>
 					</li>
@@ -59,7 +61,6 @@
 		</div>
 	</nav>
 </div>
-</section>
 
 
 <div class="feed">
@@ -111,5 +112,6 @@
 
 
 <?php 
+	require_once('includes/writerModal.php');
 	require_once("includes/footer.php");
  ?>

@@ -45,6 +45,7 @@
 </section>
 
  <?php
+ 	require_once('includes/clientModal.php');
 	include 'includes/footer.php';
 
  ?>
