@@ -33,6 +33,10 @@
 	font-size: 1.1em;
 	letter-spacing: 1px;
 	display: block;
+	line-height: 30px;
+}
+#sidebar ul li a .fa{
+	margin-right: 7px;
 }
 #sidebar ul li a:hover{
 	color: #fff;
@@ -54,10 +58,11 @@ ul ul a{
 	font-size: 0.9em!important;
 	padding-left: 60px;
 	background: #636887;
+	line-height: 20px!important;
 }
 .content{
 	width: 100%;
-	padding: 20px;
+	padding: 60px 20px;
 	min-height: 100vh;
 	transition: all 0.3s;
 }
@@ -70,3 +75,30 @@ ul ul a{
 		margin-left: 0;
 	}
 }
+ /*dashboard.php page styling*/
+ .d-box{
+ 	border-right: 3px solid #f2f2f2;
+ 	border-top: 1px solid #f2f2f2;
+ 	border-bottom: 1px solid #f2f2f2;
+ 	padding: 10% 15px;
+ 	border-radius: 5px;
+ 	margin: 5px;
+ }
+ .d-box-1{
+ 	border-left: 5px solid #2fc7e2;
+ }
+ .d-box-2{
+ 	border-left: 5px solid #1d61cf;
+ }
+ .d-box-3{
+ 	border-left: 5px solid #1d61cf;
+ }
+ .d-box-4{
+ 	border-left: 5px solid #157d31;
+ }
+ .d-box{
+
+ }
+ .card-d{
+ 	margin-top: 1.5em;
+ }

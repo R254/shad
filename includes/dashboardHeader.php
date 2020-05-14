@@ -48,10 +48,10 @@
 				<a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i class="fa fa-cogs"></i> Controls</a>
 				<ul class="collapse list-unstyled" id="homeSubmenu">
 					<li>
-						<a href="users.php">Users</a>
+						<a href="users.php"> <i class="fa fa-users"></i> Users</a>
 					</li>
 					<li>
-						<a href="#">Home 2</a>
+						<a href="analytics.php"><i class="fa fa-users"></i> Analytics</a>
 					</li>
 				</ul>
 			</li>
@@ -78,3 +78,52 @@
 			</li>
 		</ul>
 	</nav>
+
+	<!-- Delete confirmation modal -->
+
+		<!-- Modal -->
+		<div class="modal fade" id="delete" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		  <div class="modal-dialog modal-dialog-centered">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h5 class="modal-title" id="exampleModalLabel">Delete the user</h5>
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		          <span aria-hidden="true">&times;</span>
+		        </button>
+		      </div>
+		      <div class="modal-body">
+		      	<p class="lead">
+		      		Are you sure that you need to delete it?
+		      	</p>
+		      </div>
+		      <div class="modal-footer"><button type="button" class="btn btn-danger">Yes</button>
+		        <button type="button" class="btn btn-warning" data-dismiss="modal">Cancel</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
+
+	<!-- Activate confirmation modal -->
+
+	<div class="modal fade" id="activate" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		  <div class="modal-dialog modal-dialog-centered">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h5 class="modal-title" id="exampleModalLabel">Activate the User</h5>
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		          <span aria-hidden="true">&times;</span>
+		        </button>
+		      </div>
+		      <div class="modal-body">
+		        <p class="lead">
+		      		Are you sure that you want to activate this user?
+		      	</p>
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-primary">Yes</button>
+		        <button type="button" class="btn btn-warning" data-dismiss="modal">Cancel</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>

@@ -37,7 +37,7 @@
 					<h5>Freelancers</h5>
 				</div>
 				<?php while ($row = $q->fetch(PDO::FETCH_OBJ)): ?>
-				<div class="card-body">
+				<div class="card-body card-body-h">
 						<div class="btn-w">
 							<ul>
 								<li><a href="register.php"><button class="btn nav-btn">Save</button></a></li>

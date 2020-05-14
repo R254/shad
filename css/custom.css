@@ -360,11 +360,11 @@ body {
 .card-body{	
 	padding: 1em 2em!important;
 }
-.card-body:hover{
+.card-body-h:hover{
 	background-color: #f7f7f7;
 	cursor: pointer;
 }
-.card-body:focus{
+.card-body-h:focus{
 	background-color: #f7f7f7;
 	cursor: pointer;
 }

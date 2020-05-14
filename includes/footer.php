@@ -3,7 +3,7 @@
 		
 		<div class="row footer-1">
 			<div class="col-md-4">
-				<h5>Company</h5>
+				<h5>Higherwriters</h5>
 				<hr>
 				<p>
 					At higherwriters we offer the best content and article writing service at friendly prices.
